@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Code4Impact-SL — Empowering Communities Through Code and Technology
+    </title>
+    <meta
+      name="description"
+      content="Code4Impact-SL is a nonprofit tech foundation empowering communities in Sierra Leone through coding, technology education, and inclusive innovation."
+    />
+    <meta
+      name="keywords"
+      content="Code4Impact-SL, Sierra Leone, coding, technology education, digital skills, youth empowerment, women in tech, inclusive technology, nonprofit"
+    />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Code4Impact-SL — Empowering Communities Through Code and Technology"
+    />
+    <meta
+      property="og:description"
+      content="Creating opportunities, building skills, and driving innovation in Sierra Leone."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://code4impactsl.example" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1600&auto=format&fit=crop"
+    />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Code4Impact-SL — Empowering Communities Through Code and Technology"
+    />
+    <meta
+      name="twitter:description"
+      content="Creating opportunities, building skills, and driving innovation in Sierra Leone."
+    />
+    <meta
+      name="twitter:image"
+      content="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1600&auto=format&fit=crop"
+    />
+
+    <!-- Icons & Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link rel="canonical" href="/" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Code4Impact-SL",
+        "url": "https://code4impactsl.example",
+        "logo": "https://code4impactsl.example/logo.png",
+        "sameAs": [
+          "https://www.facebook.com/Code4ImpactSL",
+          "https://www.linkedin.com/company/code4impactsl",
+          "https://twitter.com/Code4ImpactSL",
+          "https://www.instagram.com/Code4ImpactSL"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "SL",
+          "addressLocality": "Freetown"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <!--header section-->
+    <header class="site-header" role="banner">
+      <div class="top-bar">
+        <div class="brand" aria-label="Code4ImpactSL logo">
+          <!-- C4i logo -->
+          <img
+            src="./assets/images/c4i logo.png"
+            alt="Code4ImpactSL logo"
+            class="logo"
+            width="60"
+            height="60"
+          />
+          <div class="brand-text">
+            <span class="brand-title">Code4Impact-SL</span>
+            <span class="brand-sub">Digital empowerment for Sierra Leone</span>
+          </div>
+        </div>
+        <div class="header-actions">
+          <nav class="nav" aria-label="Primary">
+            <!-- Mobile Menu Toggle -->
+            <button
+              class="nav-toggle"
+              aria-expanded="false"
+              aria-controls="primary-menu"
+              aria-label="Open menu"
+            >
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </button>
+            <ul id="primary-menu" class="menu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#focus">Focus Areas</a></li>
+              <li><a href="#get-involved">Get Involved</a></li>
+              <li><a href="#blog">Blog/News</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </nav>
+          <!-- Dark Mode Toggle -->
+          <button
+            id="dark-mode-toggle"
+            class="btn btn-ghost dark-mode-toggle"
+            aria-label="Toggle dark mode"
+          >
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          <a href="#donate" class="btn btn-accent btn-donate">Donate</a>
+        </div>
+      </div>
+    </header>
+    <!--main section-->
+    <main id="main" tabindex="-1">
+      <!-- Hero -->
+      <section id="home" class="hero" aria-label="Hero">
+        <div
+          class="hero-media"
+          role="img"
+          aria-label="Young people learning with laptops"
+        ></div>
+        <div class="hero-content container">
+          <h1 data-i18n="hero.title">
+            Empowering Communities Through Code and Technology
+          </h1>
+          <p class="lead" data-i18n="hero.subtitle">
+            Creating opportunities, building skills, and driving innovation in
+            Sierra Leone
+          </p>
+          <div class="cta-group">
+            <a href="#get-involved" class="btn btn-primary" data-i18n="cta.join"
+              >Join Us</a
+            >
+            <a href="#about" class="btn btn-ghost" data-i18n="cta.learn"
+              >Learn More</a
+            >
+          </div>
+          <ul class="hero-highlights" id="hero-highlights"></ul>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section
+        id="about"
+        class="section bg-surface"
+        aria-labelledby="about-title"
+      >
+        <div class="container">
+          <div class="section-header">
+            <h2 id="about-title" data-i18n="about.title">About Us</h2>
+            <p class="section-sub" data-i18n="about.subtitle">
+              Who we are and why we exist
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-card">
+              <h3 data-i18n="about.mission.title">Mission</h3>
+              <p id="mission" data-i18n="about.mission.body"></p>
+            </div>
+            <div class="about-card">
+              <h3 data-i18n="about.vision.title">Vision</h3>
+              <p id="vision" data-i18n="about.vision.body"></p>
+            </div>
+            <div class="about-card">
+              <h3 data-i18n="about.values.title">Core Values</h3>
+              <ul id="values" class="values-list"></ul>
+            </div>
+          </div>
+
+          <div class="history">
+            <h3 data-i18n="about.history.title">Our Story</h3>
+            <p id="history" data-i18n="about.history.body"></p>
+          </div>
+
+          <div class="team">
+            <h3 data-i18n="about.team.title">Leadership Team</h3>
+            <div id="team-grid" class="team-grid" role="list"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Focus Areas -->
+      <section id="focus" class="section" aria-labelledby="focus-title">
+        <div class="container">
+          <div class="section-header">
+            <h2 id="focus-title" data-i18n="focus.title">Focus Areas</h2>
+            <p class="section-sub" data-i18n="focus.subtitle">
+              Where we create impact
+            </p>
+          </div>
+          <div id="focus-grid" class="feature-grid" role="list"></div>
+        </div>
+      </section>
+
+      <!-- Get Involved -->
+      <section
+        id="get-involved"
+        class="section"
+        aria-labelledby="get-involved-title"
+      >
+        <div class="container">
+          <div class="section-header">
+            <h2 id="get-involved-title" data-i18n="involved.title">
+              Get Involved
+            </h2>
+            <p class="section-sub" data-i18n="involved.subtitle">
+              Join us as a volunteer, partner, or donor
+            </p>
+          </div>
+          <div class="involved-grid">
+            <div class="involved-card">
+              <i class="fa-solid fa-handshake-angle"></i>
+              <h3 data-i18n="involved.volunteer.title">Volunteer</h3>
+              <p id="volunteer-copy" data-i18n="involved.volunteer.body"></p>
+              <a
+                href="#contact"
+                class="btn btn-primary"
+                data-i18n="involved.volunteer.cta"
+                >Sign Up</a
+              >
+            </div>
+            <div class="involved-card">
+              <i class="fa-solid fa-handshake"></i>
+              <h3 data-i18n="involved.partner.title">Partner With Us</h3>
+              <p id="partner-copy" data-i18n="involved.partner.body"></p>
+              <a
+                href="#contact"
+                class="btn btn-primary"
+                data-i18n="involved.partner.cta"
+                >Contact Partnerships</a
+              >
+            </div>
+            <div class="involved-card" id="donate">
+              <i class="fa-solid fa-hand-holding-dollar"></i>
+              <h3 data-i18n="involved.donate.title">Donate</h3>
+              <p id="donate-copy" data-i18n="involved.donate.body"></p>
+              <div
+                id="donate-methods"
+                class="donate-actions"
+                aria-live="polite"
+              ></div>
+            </div>
+          </div>
+          <div
+            class="involved-hero"
+            role="img"
+            aria-label="Volunteers collaborating on community tech projects"
+          ></div>
+        </div>
+      </section>
+
+      <!-- Newsletter -->
+      <section class="section bg-surface" aria-labelledby="newsletter-title">
+        <div class="container">
+          <div class="testimonial-wrap">
+            <div class="newsletter">
+              <h3 id="newsletter-title" data-i18n="newsletter.title">
+                Join our newsletter
+              </h3>
+              <p data-i18n="newsletter.subtitle">
+                Get updates on programs, events, and impact stories.
+              </p>
+              <form
+                id="newsletter-form"
+                action="https://formsubmit.co/code4impactsl@gmail.com"
+                method="POST"
+              >
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="Newsletter signup (header)"
+                />
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_template" value="table" />
+                <label
+                  for="newsletter-email"
+                  class="sr-only"
+                  data-i18n="newsletter.emailLabel"
+                  >Email address</label
+                >
+                <input
+                  id="newsletter-email"
+                  name="email"
+                  type="email"
+                  placeholder="you@example.com"
+                  required
+                  aria-required="true"
+                />
+                <button
+                  class="btn btn-primary"
+                  type="submit"
+                  data-i18n="newsletter.cta"
+                >
+                  Subscribe
+                </button>
+                <p id="newsletter-msg" role="status" aria-live="polite"></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog / News -->
+      <section id="blog" class="section" aria-labelledby="blog-title">
+        <div class="container">
+          <div class="section-header">
+            <h2 id="blog-title" data-i18n="blog.title">Blog/News</h2>
+            <p class="section-sub" data-i18n="blog.subtitle">
+              Updates on events, projects, and success stories
+            </p>
+          </div>
+          <div class="filters" role="tablist" aria-label="Blog categories">
+            <button
+              class="filter active"
+              data-filter="all"
+              role="tab"
+              aria-selected="true"
+              data-i18n="blog.filters.all"
+            >
+              All
+            </button>
+            <button
+              class="filter"
+              data-filter="announcements"
+              role="tab"
+              aria-selected="false"
+              data-i18n="blog.filters.announcements"
+            >
+              Announcements
+            </button>
+            <button
+              class="filter"
+              data-filter="impact"
+              role="tab"
+              aria-selected="false"
+              data-i18n="blog.filters.impact"
+            >
+              Impact Stories
+            </button>
+            <button
+              class="filter"
+              data-filter="tips"
+              role="tab"
+              aria-selected="false"
+              data-i18n="blog.filters.tips"
+            >
+              Tips &amp; Resources
+            </button>
+          </div>
+          <div id="blog-grid" class="card-grid" role="list"></div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section
+        id="contact"
+        class="section bg-surface"
+        aria-labelledby="contact-title"
+      >
+        <div class="container">
+          <div class="section-header">
+            <h2 id="contact-title" data-i18n="contact.title">Contact Us</h2>
+            <p class="section-sub" data-i18n="contact.subtitle">
+              We’d love to hear from you
+            </p>
+          </div>
+          <div class="contact-grid">
+            <form
+              id="contact-form"
+              class="contact-form"
+              action="https://formsubmit.co/code4impactsl@gmail.com"
+              method="POST"
+            >
+              <input
+                type="hidden"
+                name="_subject"
+                value="Contact form submission"
+              />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+              <div class="form-field">
+                <label for="name" data-i18n="contact.form.name">Name</label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="Your name"
+                  required
+                  aria-required="true"
+                />
+              </div>
+              <div class="form-field">
+                <label for="email" data-i18n="contact.form.email">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="you@example.com"
+                  required
+                  aria-required="true"
+                />
+              </div>
+              <div class="form-field">
+                <label for="message" data-i18n="contact.form.message"
+                  >Message</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="How can we help?"
+                  required
+                  aria-required="true"
+                ></textarea>
+              </div>
+              <button
+                class="btn btn-primary"
+                type="submit"
+                data-i18n="contact.form.cta"
+              >
+                Send Message
+              </button>
+              <p id="contact-msg" role="status" aria-live="polite"></p>
+            </form>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:code4impactsl@gmail.com"
+                  >code4impactsl@gmail.com</a
+                >
+              </div>
+              <div class="contact-item">
+                <i class="fa-solid fa-phone"></i>
+                <a href="tel:+23276854253">+232 76 854 253</a>
+              </div>
+              <div class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <address>Makeni, Sierra Leone</address>
+              </div>
+              <div class="map-wrap">
+                <iframe
+                  title="Map of Makeni, Sierra Leone"
+                  loading="lazy"
+                  allowfullscreen
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63071.874644998235!2d-12.090713086258939!3d8.880319395540559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xf06a9be0db29e9d%3A0x9a77aab743de9a41!2sMakeni!5e0!3m2!1sen!2ssl!4v1756065915315!5m2!1sen!2ssl"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand brand--footer">
+            <img
+              src="./assets/images/c4i logo.png"
+              alt="Code4ImpactSL logo"
+              class="logo"
+              width="40"
+              height="40"
+            />
+            <div class="brand-text">
+              <span class="brand-title">Code4Impact-SL</span>
+              <span class="brand-sub"
+                >Digital empowerment for Sierra Leone</span
+              >
+            </div>
+          </div>
+          <p class="footer-copy">
+            &copy; <span id="year"></span> Code4ImpactSL. All rights reserved.
+          </p>
+        </div>
+        <nav aria-label="Quick links">
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#focus">Focus Areas</a></li>
+            <li><a href="#get-involved">Get Involved</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div>
+          <form
+            id="footer-newsletter"
+            class="footer-newsletter"
+            action="https://formsubmit.co/code4impactsl@gmail.com"
+            method="POST"
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="Newsletter signup (footer)"
+            />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <label for="footer-email" class="sr-only">Email address</label>
+            <input
+              id="footer-email"
+              name="email"
+              type="email"
+              placeholder="you@example.com"
+              required
+              aria-required="true"
+            />
+            <button class="btn btn-primary" type="submit">Subscribe</button>
+            <p id="footer-newsletter-msg" role="status" aria-live="polite"></p>
+          </form>
+          <div class="social" aria-label="Social media">
+            <a
+              href="https://www.facebook.com/profile.php?id=61580149421313"
+              aria-label="Facebook"
+              target="_blank"
+              rel="noopener"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              href="https://x.com/code4impactsl"
+              aria-label="Twitter"
+              target="_blank"
+              rel="noopener"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/company/code4impactsl"
+              aria-label="LinkedIn"
+              target="_blank"
+              rel="noopener"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/karifakamara/"
+              aria-label="Instagram"
+              target="_blank"
+              rel="noopener"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.youtube.com/@Code4Impact-SL"
+              aria-label="Youtube"
+              target="_blank"
+              rel="noopener"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button
+      id="scroll-to-top"
+      class="scroll-to-top-btn"
+      aria-label="Scroll to top of page"
+    >
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>

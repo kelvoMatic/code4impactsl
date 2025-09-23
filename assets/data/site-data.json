@@ -1,0 +1,127 @@
+{
+  "en": {
+    "focus": {
+      "items": [
+        {
+          "title": "Digital Literacy & Inclusive Education",
+          "tagline": "Building a tech-savvy generation",
+          "description": "We equip students and teachers with practical digital skills and resources so every child—urban or rural—can participate in Sierra Leone's digital future.",
+          "programs": [
+            "Code4Kids — Introduces coding in schools through structured, beginner-friendly modules, starting with pilots and scaling across districts",
+            "Girls in Tech SL — Flagship gender-equity initiative providing hands-on coding, robotics, mentorship, and leadership opportunities",
+            "Digital Learning Hubs — Offline libraries and resource centers that deliver curated digital curricula where internet connectivity is limited"
+          ]
+        },
+        {
+          "title": "Youth Skills & Digital Employment",
+          "tagline": "Turning skills into opportunities",
+          "description": "We prepare young people for the digital economy with marketable skills, portfolio development, and pathways to freelance and local employment.",
+          "programs": [
+            "Youth Freelance Empowerment — Short, intensive bootcamps covering web development, design, soft skills, portfolio building, and onboarding to freelance platforms with ongoing mentorship",
+            "Code4Impact Festival — Annual showcase where youth present projects, network with employers and partners, and access internships, gigs, and awards"
+          ]
+        },
+        {
+          "title": "CivicTech & Digital Communities",
+          "tagline": "Technology that strengthens institutions",
+          "description": "We build practical digital tools that help schools, councils, civil society, and small businesses improve service delivery, transparency, and inclusion.",
+          "programs": [
+            "Code4CivicTech — Affordable websites and lightweight apps for schools, NGOs, and SMEs, plus basic training for content management",
+            "Tech4Justice — Community education on digital safety and device-recovery awareness, establishing a foundation for future digital forensics with vetted partners",
+            "Open Data Tools — Simple dashboards and data-literacy workshops that help local leaders make evidence-based decisions"
+          ]
+        },
+        {
+          "title": "Tech for Sustainable Development",
+          "tagline": "Digital solutions for real-life needs",
+          "description": "We apply technology to agriculture and health to improve livelihoods and community well-being across Sierra Leone.",
+          "programs": [
+            "Smart Agriculture — Low-tech, high-impact services such as SMS weather alerts and market-price updates; piloting IoT on demonstration plots when readiness and funding allow",
+            "Code4Health — Clinic record systems and SMS reminders that streamline patient follow-ups, with a roadmap toward interoperable, community-scale health platforms"
+          ]
+        }
+      ]
+    },
+    "about": {
+      "mission": {
+        "body": "Code4ImpactSL empowers Sierra Leonean communities by teaching digital skills, fostering innovation, and creating opportunities for youth, women, and underserved groups to thrive in the digital economy."
+      },
+      "vision": {
+        "body": "To empower communities in Sierra Leone through technology, coding, and innovation bridging the digital divide and creating opportunities for all."
+      },
+      "values": {
+        "items": [
+          { "title": "Innovatione" },
+          { "title": "Digital Inclusion"},
+          { "title": "Integrity & Transparency"},
+          { "title": "Collaboration & Community"},
+          { "title": "Excellence & Continuous Learning"},
+          { "title": "Sustainability & Responsibility"},
+          { "title": "Empowerment through Technology"}
+        ]
+      },
+      "history": {
+        "body": [
+          "Code4ImpactSL began with a simple idea: to use technology as a force for change in Sierra Leone. What started as a small effort to teach coding has grown into a community-driven movement, empowering young people with digital skills, mentorship, and opportunities to solve real-world problems.",
+          "We believe technology is more than just a career path—it's a tool for building a better future. Through training, innovation, and community projects, Code4ImpactSL is creating a generation of changemakers ready to shape Sierra Leone's digital future and ensure no one is left behind."
+        ]
+      },
+      "team": {
+        "items": [
+          { "name": "Karifa Kamara", "role": "Executive Director", "image": "./assets/images/Karifa Kamara.png", "bio": "Leads strategy and partnerships; passionate about inclusive digital education." },
+          { "name": "Alhassan Dauda Bangura", "role": "Programs Lead", "image": "./assets/images/AD Bangs.png", "bio": "Designs and scales learning pathways from basics to employability." },
+          { "name": "Simeon Gbani", "role": "Community & Outreach", "image": "./assets/images/Simeon Gbani.png", "bio": "Builds partnerships and runs community tech hubs across regions." },
+          { "name": "Kai Foday", "role": "CivicTech Coordinator", "image": "./assets/images/Kai Foday.png", "bio": "Leads open-source civic tools for participation and transparency." },
+          { "name": "Lamarana Shaw", "role": "Innovation & Sustainability", "image": "./assets/images/Lamarana Shaw.png", "bio": "Drives Tech4SD projects in climate, health, and education." }
+        ]
+      }
+    },
+    "involved": {
+      "volunteer": { "body": "Contribute your skills, mentor learners, or help run programs and events." },
+      "partner": { "body": "Collaborate with us on training, projects, or community initiatives." },
+      "donate": {
+        "body": "Support scholarships, equipment, and program delivery across communities.",
+        "methods": {
+          "orangeMoney": {
+            "accountName": "Code4ImpactSL",
+            "phone": "+232 76 854 253",
+            "logo": "./assets/images/Orange_Money.png"
+          },
+          "afriMoney": {
+            "accountName": "Code4ImpactSL",
+            "phone": "+232 88 738 424",
+            "logo": "./assets/images/Afrimoney.PNG"
+          },
+          "bankTransfer": {
+            "bankName": "Example Bank Sierra Leone",
+            "accountName": "Code4ImpactSL",
+            "accountNumber": "000123456789",
+            "branch": "Makeni Branch",
+            "swift": "EXSLSLFR",
+            "currency": "SLL"
+          }
+        }
+      }
+    },
+    "blog": {
+      "items": [
+        {
+          "title": "AI Awareness Training Program Launch",
+          "date": "September 2025",
+          "category": "announcements",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=1200&auto=format&fit=crop",
+          "excerpt": "Join our comprehensive AI awareness training designed to demystify artificial intelligence and prepare Sierra Leonean youth for the AI-driven future.",
+          "bodyHtml": "<p>We're excited to announce the launch of our AI Awareness Training Program, a comprehensive initiative designed to prepare Sierra Leonean communities for the rapidly evolving AI landscape.</p><p>The program will cover fundamental AI concepts, practical applications, ethical considerations, and career opportunities in AI-related fields. Participants will gain hands-on experience with AI tools and learn how to leverage these technologies for community development.</p><p>Registration opens next week for our first cohort of 50 participants. The program will run for 8 weeks with both in-person and online components.</p>"
+        },
+        {
+          "title": "Code4Kids: Early Coding Education Initiative",
+          "date": "Coming Soon",
+          "category": "announcements",
+          "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop",
+          "excerpt": "Introducing Code4Kids, our new program bringing coding and computational thinking to children aged 8-14 across Sierra Leone.",
+          "bodyHtml": "<p>Code4ImpactSL is proud to launch Code4Kids, our innovative early coding education program designed specifically for children aged 8-14. This initiative aims to introduce computational thinking and basic programming concepts through fun, interactive activities.</p><p>Code4Kids will use visual programming languages, robotics kits, and gamified learning approaches to make coding accessible and engaging for young learners. The program will be delivered through partnerships with schools and community centers across Sierra Leone.</p><p>We're currently recruiting volunteer instructors and seeking partnerships with educational institutions. The pilot program will begin in Makeni with plans to expand to other regions.</p>"
+        }
+      ]
+    }
+  }
+}
